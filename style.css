@@ -29,7 +29,7 @@ nav{
 ul{
     list-style-type: none;
     color: black;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -41,15 +41,40 @@ nav ul{
 }
 nav ul li:hover{
     cursor: pointer;
-    color: brown;
+    color: rgb(255, 97, 81);
 }
 .button1:hover{
     cursor: pointer;
-    color: brown;
+    color: rgb(255, 97, 81);
+    font-weight: bold;
 }
 h1{
     padding-left: 3.7%;
     padding-top: 12%;
     font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li img{
+    width: 70px;
+    height: 70px;
+}
+.sublist1{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 82%;
+    padding-left: 3.7%;
+    padding-top: 5%;
+}
+.para1{
+    color: rgb(255, 83, 83);
+    font-size: 25px;
+    font-weight: 200;
+}
+.para2{
+    font-weight: lighter;
+}
+p{
+    padding-left: px;
+    width: 220px;
 }
