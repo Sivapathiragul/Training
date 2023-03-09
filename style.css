@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav img{
+    width: 200px;
+    height: 47px;
+}
+
+.button1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  auto;
+    margin-top: 8px;
+    width: 83%;
+}
+
+ul{
+    list-style-type: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: brown;
+}
+.button1:hover{
+    cursor: pointer;
+    color: brown;
+}
+h1{
+    padding-left: 3.7%;
+    padding-top: 12%;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
